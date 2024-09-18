@@ -64,3 +64,39 @@ body
     border-radius: 5px;
     margin-top: 20px;
 }
+#progress
+{
+    width: 50%;
+    height: 10px;
+    background-color: var(--teal0);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+form
+{
+    margin-top: 60px0;
+}
+input
+{
+    padding: 16px;
+    background: var(--secondaryBackground);
+    border: 1px solid var(--purple);
+    border-radius: 10px;
+    outline: none;
+    color: var(--text)
+    
+}
+button
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    counter: var(--text);
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+}
